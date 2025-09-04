@@ -61,6 +61,9 @@ p {
 #land-area {
     width: 200%;
 }
+#location {
+    width: 200%;
+}
 
 label {
     display: block;

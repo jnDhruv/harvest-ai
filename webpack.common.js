@@ -21,7 +21,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/input.html",
       filename: "input.html",
-      chunks: ["index", "data", "dashboard"],
+      chunks: ["index", "data"],
     }),
     new HtmlWebpackPlugin({
       template: "./src/dashboard.html",
